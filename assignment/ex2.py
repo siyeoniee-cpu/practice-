@@ -1,0 +1,5 @@
+f = open("input2.txt", "r")
+text = f.read()
+f.close()
+words=text.split()
+print("단어 수:",len(words))
